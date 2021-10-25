@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <title>Utilities Bootstrap 5</title>
+</head>
+
+<body>
+    <div class="container m-5">
+
+        <h4 class="text-center">Utilities Bootstrap 5</h4>
+        <h2 class="text-center">Spacing & Sizing</h2>
+        <hr>
+
+        <!-- Lets Begin -->
+
+        <!-- Box Model -->
+        <!-- 1. Margin area transfarant di dalam pada sekeliling element
+        2. Padding area transfarant di luar pada sekeliling element
+        3. Border, batas tepi pada sekeliling objek
+        4. Content -->
+
+        <h3 class="text-danger">Spacing & Sizing</h3>
+        <p>memberi ruang/jarak kosong pada sekeliling objek, <b>Box-model</b></p>
+
+        <h3 class="text-primary">Margin Bottom</h3>
+        <p>membuat margin bottom <b>mb-b</b></p>
+        <h3 class="mb-0 bg-danger">Margin Bottom 0</h3>
+        <h3 class="mb-1 bg-danger">Margin Bottom 1</h3>
+        <h3 class="mb-2 bg-danger">Margin Bottom 2</h3>
+        <h3 class="mb-3 bg-danger">Margin Bottom 3</h3>
+        <h3 class="mb-4 bg-danger">Margin Bottom 4</h3>
+        <h3 class="mb-5 bg-danger">Margin Bottom 5</h3>
+
+        <hr>
+
+        <h3 class="text-primary">Margin Top</h3>
+        <p>membuat margin Top <b>mt-b</b></p>
+        <h3 class="bg-success mt-0">Margin Top 0</h3>
+        <h3 class="bg-success mt-1">Margin Top 1</h3>
+        <h3 class="bg-success mt-2">Margin Top 2</h3>
+        <h3 class="bg-success mt-3">Margin Top 3</h3>
+        <h3 class="bg-success mt-4">Margin Top 4</h3>
+        <h3 class="bg-success mt-5">Margin Top 5</h3>
+
+        <hr>
+
+        <h3 class="text-primary">Margin Right</h3>
+        <p>membuat margin Right (margin end) <b>me-b</b></p>
+        <h3 class="bg-success d-inline-block me-0">Margin Right 0</h3>
+        <h3 class="bg-success d-inline-block me-1">Margin Right 1</h3>
+        <h3 class="bg-success d-inline-block me-2">Margin Right 2</h3>
+        <h3 class="bg-success d-inline-block me-3">Margin Right 3</h3>
+
+        <hr>
+
+        <h3 class="text-primary">Margin Left</h3>
+        <p>membuat margin Left (margin start) <b>ms</b></p>
+        <h3 class="bg-success d-inline-block ms-0">Margin left 0</h3>
+        <h3 class="bg-success d-inline-block ms-5">Margin left 5</h3>
+
+        <hr>
+
+        <h3 class="text-primary">Margin sumbu X</h3>
+        <p>Membuat margin sumbu x <b>mx-0 sd 5</b></p>
+            <h1 class="bg-primary d-inline-block mx-3">Margin X 3</h1>
+            <h1 class="bg-primary d-inline-block mx-4">Margin X 4</h1>
+            <h1 class="bg-primary d-inline-block mx-5">Margin X 5</h1>
+
+        <hr>
+
+        <h3 class="text-primary">Margin sumbu Auto X</h3>
+        <p>Membuat margin Auto <b>mx-Auto</b></p>
+        <!-- posisi komponen auto ditengah-tengah parent-nya -->
+        <div class="bg-secondary container" style="height: 500px;">
+            <div class="bg-primary mx-auto" style="height: 100px; width: 100px;">Margin Auto X</div>
+        </div>
+
+        <hr>
+
+        <h3 class="text-primary">Margin sumbu Y</h3>
+        <p>Membuat margin sumbu y <b>my-0 sd 5</b></p>
+        <h1 class="bg-primary d-block my-3">Margin Y 3</h1>
+        <h1 class="bg-primary d-block my-4">Margin Y 4</h1>
+        <h1 class="bg-primary d-block my-5">Margin Y 5</h1>
+
+        <hr>
+
+        <h3 class="text-primary">Margin sumbu Auto Y</h3>
+        <p>Membuat margin Auto <b>my-Auto</b></p>
+        <!-- posisi komponen auto ditengah-tengah parent-nya -->
+        <div class="bg-secondary container" style="height: 500px;">
+            <div class="bg-primary my-auto" style="height: 100px; width: 100px;">Margin Auto Y</div>
+        </div>
+
+        <hr>
+
+        <h3 class="text-primary">Margin keliling</h3>
+        <p>Membuat margin All Side <b>m</b></p>
+        <div class="bg-secondary container" style="height: 500px;">
+            <div class="bg-primary m-5" style="height: 100px; width: 100px;">Margin Auto Y</div>
+        </div>
+
+        <hr>
+
+        <h3 class="text-primary">Padding Bottom</h3>
+        <p>membuat Padding bottom <b>pb-b</b></p>
+        <div class="bg-success pb-5" style="height: 50px; width: 200px;">Padding Bottom 3</div>   
+
+        <br><hr>
+
+        <h3 class="text-primary">Padding</h3>
+        <p>membuat padding top left dan right <b>pt pe ps</b></p>
+        <div class="bg-success pt-3 m-1" style="height: 50px; width: 200px;">Padding Top 3</div>
+        <div class="bg-success pe-3 m-1" style="height: 50px; width: 200px;">Padding Right 3</div>
+        <div class="bg-success ps-3 m-1" style="height: 50px; width: 200px;">Padding Left 3</div>
+
+        <hr>
+        <br>
+
+
+        <h3 class="text-primary">Sizing Width</h3>
+        <p>w-25 sd w-100</p>
+        <div class="container">
+            <div class="bg-primary border mb-1 w-25">25%</div>
+            <div class="bg-primary border mb-1 w-50">50%</div>
+            <div class="bg-primary border mb-1 w-75">75%</div>
+            <div class="bg-primary border mb-1 w-100">100%</div>
+        </div>
+
+        <h3 class="text-primary">Sizing Height</h3>
+        <p>h-25 sd h-100</p>
+        <!-- menyesuaikan tinggi parent-nya -->
+        <div class="container border" style="height: 300px;">
+            <div class="bg-primary border mr-1 d-inline-block h-25">25%</div>
+            <div class="bg-primary border mr-1 d-inline-block h-50">50%</div>
+            <div class="bg-primary border mr-1 d-inline-block h-75">75%</div>
+            <div class="bg-primary border mr-1 d-inline-block h-100">100%</div>
+        </div>
+
+        <br><hr><br>
+
+
+    Click the accordions below to expand/collapse the accordion content.
+
+    <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #1
+        </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+        </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+        </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <br><hr><br>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Accordion Item #1
+            </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Accordion Item #2
+            </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Accordion Item #3
+            </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+        </div>
+        </div>
+    </div>
+
+    <br><hr><br>
+
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+    </div>
+    <div class="alert alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+    </div>
+    <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+    </div>
+    <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+    </div>
+    <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+    </div>
+    <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+    </div>
+    <div class="alert alert-light" role="alert">
+        A simple light alert—check it out!
+    </div>
+    <div class="alert alert-dark" role="alert">
+        A simple dark alert—check it out!
+    </div>
+
+    <br><hr><br>
+
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Well done!</h4>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+        <hr>
+        <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+    </div>
+
+    <br><hr><br>
+
+    <div class="alert alert-primary d-flex align-items-center" role="alert">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16">
+          <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </svg>
+        <div>
+          An example alert with an icon
+        </div>
+    </div>
+
+    
+
+        <!--  -->
+        <!-- End Session -->
+        <!--Thank You -->
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Popper Javascript -->
+    <script src="js/popper.min.js"></script>
+</body>
+
+</html>
